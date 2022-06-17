@@ -34,8 +34,8 @@ if (emailMatch) {
 
 // ESERCIZIO 2
 
-const userNumber = Math.floor( (Math.random() * 10 ) +1);
-const computerNumber = Math.floor( (Math.random() * 10 ) +1);
+const userNumber = Math.floor( (Math.random() * (6 - 1) ) +1);
+const computerNumber = Math.floor( (Math.random() * (6 - 1) ) +1);
 
 console.log(userNumber, computerNumber);
 
