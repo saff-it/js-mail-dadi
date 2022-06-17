@@ -23,12 +23,12 @@ for ( let index = 0; index < emailList.length ; index++ ) {
 }
 
 
-if (emailMatch == true) {
+if (emailMatch) {
     alert("Accesso eseguito.");
 
-} else if (emailMatch == false) {
-
+} else {
     alert("Email sconosciuta, accesso negato.");
+
 }
 
 
@@ -46,7 +46,7 @@ if (userNumber > computerNumber) {
     alert('Hai perso!');
 
 } else {
-    alert('Non ha vinto nessuno!');
+    alert('Non ha vinto nessuno ritenta!');
 
 }
 
