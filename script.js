@@ -7,20 +7,23 @@ const emailList = [
 ];
 
 const userEmail = prompt('Inserisci la tua email');
+let emailMatch = false;
 
 for ( let index = 0; index < emailList.length ; index++ ) {
-
+   
     console.log(emailList[index]);
-    
-    if ( userEmail == emailList[index] ) {
-        alert("Hai effettuato l'accesso!");
-        
 
-    } else if ( userEmail != emailList[index] ){
-        alert( "Email sconosciuta, accesso negato." );
-        
+    if ( userEmail == emailList[index] ) {
+        console.log(emailList[index]);
+        emailMatch = true;
+        alert("Accesso eseguito.");
 
     } 
 
-    
 }
+
+console.log(emailMatch);
+alert("Email sconosciuta, accesso negato.");
+
+
+   
