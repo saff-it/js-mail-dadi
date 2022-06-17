@@ -1,3 +1,4 @@
+// ESERCIZIO 1
 
 const emailList = [
     'topolino@walt-disney.com',
@@ -31,8 +32,23 @@ if (emailMatch == true) {
 }
 
 
+// ESERCIZIO 2
 
+const userNumber = Math.floor( (Math.random() * 10 ) +1);
+const computerNumber = Math.floor( (Math.random() * 10 ) +1);
 
+console.log(userNumber, computerNumber);
+
+if (userNumber > computerNumber) {
+    alert('Hai vinto!');
+
+} else if (userNumber < computerNumber) {
+    alert('Hai perso!');
+
+} else {
+    alert('Non ha vinto nessuno!');
+
+}
 
 
 
